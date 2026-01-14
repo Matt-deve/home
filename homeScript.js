@@ -6,7 +6,7 @@ var projectList = [
 ]
 
 var projects = JSON.decode(homeData.json)
-
+console.log(projects)
 function afterPageLoad() {
     projects.forEach(element => {
         $(projectsContainer).append($("<div></div>")
@@ -21,3 +21,4 @@ function afterPageLoad() {
     });  
 
 }
+
