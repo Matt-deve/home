@@ -5,7 +5,7 @@ var projectList = [
     description: "Crossword puzzle maker tool and user interaction pages."}
 ]
 
-var projects = JSON.decode(homeData.json)
+var projects = JSON.decode(/homeData.json)
 console.log(projects)
 function afterPageLoad() {
     projects.forEach(element => {
@@ -21,4 +21,5 @@ function afterPageLoad() {
     });  
 
 }
+
 
