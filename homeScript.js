@@ -5,8 +5,10 @@ var projectList = [
     description: "Crossword puzzle maker tool and user interaction pages."}
 ]
 
-var projects = JSON.decode(/homeData.json)
-console.log(projects)
+fetch('./homeData.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+
 function afterPageLoad() {
     projects.forEach(element => {
         $(projectsContainer).append($("<div></div>")
@@ -21,5 +23,6 @@ function afterPageLoad() {
     });  
 
 }
+
 
 
