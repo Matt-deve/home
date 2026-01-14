@@ -10,7 +10,7 @@ fetch('./homeData.json')
     .then((json) => console.log(json));
 
 function afterPageLoad() {
-    projects.forEach(element => {
+    json.forEach(element => {
         $(projectsContainer).append($("<div></div>")
             .append($("<a></a>")
                 .text(element.title)
@@ -23,6 +23,7 @@ function afterPageLoad() {
     });  
 
 }
+
 
 
 
