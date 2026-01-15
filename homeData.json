@@ -2,13 +2,13 @@
   "projects":[
     {
       "title": "NX-Autolearn",
-      "href": "https://matt-deve.github.io/NX-autolearn/", 
+      "href": "", 
       "description": "Project to simulate a computer generated opponent who 'learns' to play noughts and crosses."
     },
     {
-      "title": "Crosswords",
-      "href": "", 
-      "description": "Crossword puzzle maker tool and user interaction pages."
+      "title": "Clock_for_ChoiceScript",
+      "href": "https://github.com/Matt-deve/Clock_for_ChoiceScript", 
+      "description": "A clock module allowing you to easily change the time and date with a single call to a subroutine, and then dynamically write it into your text. Users can define their own calendrical systems, date and time stamp formatting, and even use a pseudo-unix timestamp."
     }
   ]
 }
