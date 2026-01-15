@@ -13,25 +13,34 @@ function afterPageLoad() {
         //console.log(data);
         data.projects.forEach(element => {
             $(projectsContainer).append($("<div></div>")
-            .append($("<a></a>")
-                .text(element.title)
-                .attr("href",element.href)
-                .attr("target","_blank")
-                .attr("rel", "noopener noreferrer")
-            )
+            
             .append($("<div></div>")
                 .attr("class", "gallery")
-            
+                //Add container
                 .append($("<div></div")
                     .attr("class", "gallery-item")
-                    .append($("<img>")
-                        .attr("src", path + "public/images/" + element.images)
-                        .attr("alt","Alt text here")
-                    )    
+                    .append($("<a></a>")
+                        .attr("href", element.href)
+                        .attr("target","_blank")
+                        .attr("rel", "noopener noreferrer")
+                        .append($("<img>")
+                            .attr("src", path + "public/images/" + element.images)
+                            .attr("alt","Alt text here")
+                        )
+                    )
+                    //Add title
+                    .append($("<h2></h2>")
+                        .text(element.title)
+                            
+                    )
+                    //Add description
+                    .append($("<p></p>")
+                        .text(element.description)     
+                    )     
                 )
-                .append($("<p></p>")
-                    .text(element.description))
-                )
+                
+                
+            )
             .append($("<br>")),
             console.log(element.images)
         )
