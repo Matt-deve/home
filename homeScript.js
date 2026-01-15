@@ -5,7 +5,7 @@ var projectList = [
     description: "Crossword puzzle maker tool and user interaction pages."}
 ]
 
-fetch('./homeData.json')
+fetch('https://raw.githubusercontent.com/Matt-deve/home/main/homeData.json')
     .then((response) => response.json())
     .then((json) => console.log(json));
 
