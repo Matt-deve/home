@@ -1,5 +1,5 @@
 
-//function afterPageLoad() {
+function afterPageLoad() {
     let path = window.location.pathname.slice(0,-10)
     console.log(path)
     fetch('https://raw.githubusercontent.com/Matt-deve/home/main/homeData.json')
@@ -25,7 +25,7 @@
                 .append($("<div></div")
                     .attr("class", "gallery-item")
                     .append($("<img>")
-                        .attr("src", path + "images/" + element.images)
+                        .attr("src", path + "public/images/" + element.images)
                         .attr("alt","Alt text here")
                     )    
                 )
@@ -37,7 +37,7 @@
         )
         });
     });
-//}
+}
 
 
 
