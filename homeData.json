@@ -3,22 +3,26 @@
     {
       "title": "Clock_for_ChoiceScript",
       "href": "https://github.com/Matt-deve/Clock_for_ChoiceScript", 
-      "description": "A clock module allowing you to easily change the time and date with a single call to a subroutine, and then dynamically write it into your text. Users can define their own calendrical systems, date and time stamp formatting, and even use a pseudo-unix timestamp. Written in Choicescript."
+      "description": "A clock module allowing you to easily change the time and date with a single call to a subroutine, and then dynamically write it into your text. Users can define their own calendrical systems, date and time stamp formatting, and even use a pseudo-unix timestamp. Written in Choicescript.",
+      "images": "clock_titlescreen.png"
     },
     {
       "title": "The Telling",
       "href": "https://cogdemos.ink/play/codedquill/the-telling/mygame",
-      "description": "An interactive fiction short story written for a Halloween 2025 game jam. Written in ChoiceScript."
+      "description": "An interactive fiction short story written for a Halloween 2025 game jam. Written in ChoiceScript.",
+      "images": "thetelling_titlescreen.jfif"
     },
     {
       "title": "The Cube: An Escape Room",
       "href": "https://www.roblox.com/games/14974425526/The-Cube-An-Escape-Room",
-      "description": "A Roblox escape room game in a randomly generated room, with randomly generated puzzles."
+      "description": "A Roblox escape room game in a randomly generated room, with randomly generated puzzles.",
+      "images": "thecube_titlescreen.webp"
     },
     {
       "title": "Chimps!: The Sanctuary",
       "href": "https://www.roblox.com/games/11555436658/Chimps-The-Sanctuary",
-      "description": "A Roblox animal rpg whre you play as a Chimpanzee, explore the jungle, eat fruit to survive, join a troop and fight for territory. Currently a Demo."
+      "description": "A Roblox animal rpg whre you play as a Chimpanzee, explore the jungle, eat fruit to survive, join a troop and fight for territory. Currently a Demo.",
+      "images": "chimps_titlescreen.webp"
     }
   ]
 }

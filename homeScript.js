@@ -1,5 +1,7 @@
 
-function afterPageLoad() {
+//function afterPageLoad() {
+    let path = window.location.pathname.slice(0,-10)
+    console.log(path)
     fetch('https://raw.githubusercontent.com/Matt-deve/home/main/homeData.json')
     .then(response => {
         if (!response.ok) {
@@ -14,14 +16,28 @@ function afterPageLoad() {
             .append($("<a></a>")
                 .text(element.title)
                 .attr("href",element.href)
+                .attr("target","_blank")
+                .attr("rel", "noopener noreferrer")
             )
-            .append($("<br>"))
-            .append($("<p></p>")
-                .text(element.description))
+            .append($("<div></div>")
+                .attr("class", "gallery")
+            
+                .append($("<div></div")
+                    .attr("class", "gallery-item")
+                    .append($("<img>")
+                        .attr("src", path + "images/" + element.images)
+                        .attr("alt","Alt text here")
+                    )    
+                )
+                .append($("<p></p>")
+                    .text(element.description))
+                )
+            .append($("<br>")),
+            console.log(element.images)
         )
         });
     });
-}
+//}
 
 
 
