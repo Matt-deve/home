@@ -8,7 +8,7 @@ function afterPageLoad() {
         return response.json(); 
         })
     .then(data => {
-        console.log(data);
+        //console.log(data);
         data.projects.forEach(element => {
             $(projectsContainer).append($("<div></div>")
             .append($("<a></a>")
