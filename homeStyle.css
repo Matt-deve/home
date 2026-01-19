@@ -43,6 +43,7 @@ div.gallery {
   height: 60%;
   width: 100%;
   padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 div.gallery-item img {
