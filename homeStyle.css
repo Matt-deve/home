@@ -48,7 +48,7 @@ div.gallery {
   left: 30%
 }
 
-div.gallery-item img {
+.gallery-item img {
   width: 30%;
   aspect-ratio: 16/9;
   border-radius: 16px;
